@@ -1,0 +1,366 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 3de52ae4ccc0c25be48106335282fae5a6a58dee",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 36,
+            "type": "VEC3",
+            "max": [
+                0.09999999403953552,
+                0.19999998807907105,
+                0.09999999403953552
+            ],
+            "min": [
+                -0.09999999403953552,
+                0.0,
+                -0.09999999403953552
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 36,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 36,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 36,
+            "type": "SCALAR",
+            "max": [
+                35.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 2399,
+            "type": "VEC3",
+            "max": [
+                0.09999999403953552,
+                0.19999998807907105,
+                0.09999999403953552
+            ],
+            "min": [
+                -0.09999999403953552,
+                0.0,
+                -0.09999999403953552
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 2399,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 2399,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 13536,
+            "type": "SCALAR",
+            "max": [
+                2398.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 432,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 432,
+            "byteLength": 432,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 864,
+            "byteLength": 288,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1152,
+            "byteLength": 144,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1296,
+            "byteLength": 28788,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 30084,
+            "byteLength": 28788,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 58872,
+            "byteLength": 19192,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 78064,
+            "byteLength": 54144,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 132208,
+            "uri": "Sans titre_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00008407835412072018,
+                "yfov": 0.45782235264778139,
+                "zfar": 4.62431001663208,
+                "aspectRatio": 1.7777777910232545
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "rainbow_anodized_metal_baseColor",
+            "uri": "Sans titre_images\\rainbow_anodized_metal_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "image",
+            "uri": "Sans titre_images\\image.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "image_0",
+            "uri": "Sans titre_images\\image_0.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "gelatin_normal",
+            "uri": "Sans titre_images\\gelatin_normal.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.9800001978874207,
+                    0.9499999284744263,
+                    0.8600000143051148,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.05000000074505806
+            },
+            "alphaMode": "BLEND",
+            "name": "Huile d'olive",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "name": "Métal anodisé arc-en-ciel",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 2
+                }
+            },
+            "normalTexture": {
+                "index": 3
+            },
+            "alphaMode": "BLEND",
+            "name": "Gélatine",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "PROCEDURAL_MESHES_CUBE#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "PROCEDURAL_MESHES_CUBE#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "PROCEDURAL_MESHES_SPHERE#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 2
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5335069298744202,
+                1.3157647848129273,
+                -9.579424858093262
+            ],
+            "rotation": [
+                -0.001589397550560534,
+                0.9976815581321716,
+                0.06324951350688935,
+                0.025070054456591607
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.0,
+                0.0,
+                0.5406245589256287
+            ],
+            "mesh": 0,
+            "name": "Cube 2"
+        },
+        {
+            "translation": [
+                -0.28674712777137759,
+                0.10535575449466706,
+                0.2665026783943176
+            ],
+            "scale": [
+                2.464982032775879,
+                2.464982032775879,
+                2.464982032775879
+            ],
+            "mesh": 1,
+            "name": "Cube"
+        },
+        {
+            "translation": [
+                0.5578711032867432,
+                0.0,
+                -2.8371047973632814
+            ],
+            "scale": [
+                3.835766315460205,
+                3.835766315460205,
+                3.835766315460205
+            ],
+            "mesh": 2,
+            "name": "Sphère"
+        }
+    ],
+    "samplers": [
+        {},
+        {},
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "rainbow_anodized_metal_material::baseColor::image",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "image",
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "name": "image",
+            "sampler": 2,
+            "source": 2
+        },
+        {
+            "name": "gelatin_material::normal::image",
+            "sampler": 3,
+            "source": 3
+        }
+    ],
+    "scene": 0
+}
